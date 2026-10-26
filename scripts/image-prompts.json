@@ -1,0 +1,3165 @@
+{
+  "count": 243,
+  "credits": 136,
+  "items": [
+    {
+      "key": "mascot",
+      "file": "img/peppa/happy.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Peppa Pig standing and waving hello with one hand, big happy smile, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "mascot:cheer",
+      "file": "img/peppa/cheer.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Peppa Pig jumping for joy with both arms up, very happy, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "mascot:wow",
+      "file": "img/peppa/wow.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Peppa Pig looking amazed with her mouth in a little round 'o' and both hands on her cheeks, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "app-icon",
+      "file": "img/app-icon.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "App icon: Peppa Pig's head, smiling, centred on a plain sky-blue background, bold and simple. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:free",
+      "file": "img/icons/menu-free.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig jumping in a muddy puddle with a big splash, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:missions",
+      "file": "img/icons/menu-missions.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: George Pig proudly wearing a shiny gold medal on a ribbon, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:galaxy",
+      "file": "img/icons/menu-galaxy.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: George Pig in a space helmet riding a small red-and-white toy rocket. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:reading",
+      "file": "img/icons/menu-reading.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig holding an open picture book and reading aloud, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:studio",
+      "file": "img/icons/menu-studio.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Mummy Pig painting with a paintbrush and a colourful palette, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:menu:diagnose",
+      "file": "img/icons/menu-diagnose.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Daddy Pig looking through a big magnifying glass, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:sound-station",
+      "file": "img/icons/free-sound-station.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a red bus next to a bus stop sign. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:letter-mine",
+      "file": "img/icons/free-letter-mine.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a pickaxe next to a sparkly rock. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:letter-wheel",
+      "file": "img/icons/free-letter-wheel.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a colourful spinning prize wheel. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:trace",
+      "file": "img/icons/free-trace.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a yellow pencil drawing a dotted line. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:free-write",
+      "file": "img/icons/free-free-write.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a notepad with a pencil. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:word-card",
+      "file": "img/icons/free-word-card.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a small fan of picture cards. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:rhythm",
+      "file": "img/icons/free-rhythm.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a red toy drum with two drumsticks. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:assemble",
+      "file": "img/icons/free-assemble.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: two jigsaw puzzle pieces fitting together. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:cauldron",
+      "file": "img/icons/free-cauldron.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a bubbling magic cauldron with sparkles. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:word-soccer",
+      "file": "img/icons/free-word-soccer.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a football in front of a small goal. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:listen-pick",
+      "file": "img/icons/free-listen-pick.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a pair of headphones. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:pieces",
+      "file": "img/icons/free-pieces.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a glue stick with paper pieces. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:explain",
+      "file": "img/icons/free-explain.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: an empty round speech bubble. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:find-me",
+      "file": "img/icons/free-find-me.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a magnifying glass. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:free:read-answer",
+      "file": "img/icons/free-read-answer.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: an open picture book. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:draw",
+      "file": "img/icons/studio-draw.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig drawing a picture on paper with colourful crayons, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:color",
+      "file": "img/icons/studio-color.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: George Pig colouring in a picture with a big crayon, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:letter-color",
+      "file": "img/icons/studio-letter-color.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig holding a big colouring pencil next to a cup full of colourful pencils, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:word-write",
+      "file": "img/icons/studio-word-write.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Mummy Pig writing on lined paper with a pencil, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:sentence-write",
+      "file": "img/icons/studio-sentence-write.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Daddy Pig writing on a paper scroll with a feather quill, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:studio:card",
+      "file": "img/icons/studio-card.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig holding up a pink envelope with a red heart on it, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:pick",
+      "file": "img/icons/galaxy-pick.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a ringed planet. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:type-1",
+      "file": "img/icons/galaxy-type-1.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a colourful toy keyboard. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:word-quiz",
+      "file": "img/icons/galaxy-word-quiz.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a shining star. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:word-find-1",
+      "file": "img/icons/galaxy-word-find-1.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a telescope. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:type-2",
+      "file": "img/icons/galaxy-type-2.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a red-and-white rocket. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:galaxy:word-find-2",
+      "file": "img/icons/galaxy-word-find-2.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a comet with a sparkly tail. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:reading:coach",
+      "file": "img/icons/reading-coach.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig reading aloud into a microphone, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:reading:record",
+      "file": "img/icons/reading-record.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: George Pig holding a cassette tape recorder and listening happily, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:reading:books",
+      "file": "img/icons/reading-books.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Menu icon: Peppa Pig hugging a stack of colourful picture books, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:mission:badge",
+      "file": "img/icons/mission-badge.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a gold medal on a ribbon. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:mission:target",
+      "file": "img/icons/mission-target.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a target with an arrow in the middle. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:firefly",
+      "file": "img/icons/firefly.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a cute little firefly with a softly glowing yellow tail, smiling. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "color:peppa",
+      "file": "img/color/peppa.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: Peppa Pig, a little pink pig girl in a red dress, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:george",
+      "file": "img/color/george.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: George Pig, Peppa's little brother, a small pink pig boy in a blue top, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:daddy",
+      "file": "img/color/daddy.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: Daddy Pig, a big pink pig with round black glasses and a stubbly chin, in a teal top, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:mummy",
+      "file": "img/color/mummy.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: Mummy Pig, a pink pig mother with long eyelashes, in an orange dress, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:grandpa",
+      "file": "img/color/grandpa.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: Grandpa Pig, an old pink pig with white whiskers and a navy captain's hat with an anchor, in a purple top, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:granny",
+      "file": "img/color/granny.png",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: Granny Pig, an old pink pig in a big white sun hat with a pink band and a pink dress, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "color:rabbit",
+      "file": "img/color/rabbit.png",
+      "refs": "rabbit",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "background": "opaque"
+      },
+      "prompt": "Colouring page for a 4-year-old: a cream-white rabbit girl with long upright ears in a pink dress, Peppa's friend, standing, full body, centred. Black outlines only on a plain white background — no colour, no grey, no shading; thick clean lines; every shape closed. Same shapes as the reference character, Peppa Pig cartoon style. No text."
+    },
+    {
+      "key": "사과",
+      "file": "img/words/1f34e.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red apple, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "바나나",
+      "file": "img/words/1f34c.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a yellow banana, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "포도",
+      "file": "img/words/1f347.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a bunch of purple grapes, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "딸기",
+      "file": "img/words/1f353.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red strawberry, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "수박",
+      "file": "img/words/1f349.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a round watermelon with a red slice, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "당근",
+      "file": "img/words/1f955.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an orange carrot, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "오이",
+      "file": "img/words/1f952.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a green cucumber, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "감자",
+      "file": "img/words/1f954.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a brown potato, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "밥",
+      "file": "img/words/1f35a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a bowl of white rice, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "빵",
+      "file": "img/words/1f35e.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a loaf of bread, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "우유",
+      "file": "img/words/1f95b.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a carton of milk, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "국수",
+      "file": "img/words/1f35c.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a bowl of noodles, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "달걀",
+      "file": "img/words/1f95a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a white egg, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "피자",
+      "file": "img/words/1f355.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a round pizza, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "과자",
+      "file": "img/words/1f36a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a few round cookies, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "사탕",
+      "file": "img/words/1f36c.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a wrapped sweet candy, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "강아지",
+      "file": "img/words/1f436.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a puppy, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "고양이",
+      "file": "img/words/1f431.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a kitten, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "토끼",
+      "file": "img/words/1f430.webp",
+      "refs": "rabbit",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a cream-white rabbit girl with long upright ears in a pink dress, Peppa's friend, standing and smiling, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "곰",
+      "file": "img/words/1f43b.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a bear, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "사자",
+      "file": "img/words/1f981.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a lion, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "기린",
+      "file": "img/words/1f992.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a giraffe, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "오리",
+      "file": "img/words/1f986.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a duck, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "코끼리",
+      "file": "img/words/1f418.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an elephant, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "엄마",
+      "file": "img/words/1f469.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Mummy Pig, a pink pig mother with long eyelashes, in an orange dress, standing and smiling, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "아빠",
+      "file": "img/words/1f468.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Daddy Pig, a big pink pig with round black glasses and a stubbly chin, in a teal top, standing and smiling, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "아기",
+      "file": "img/words/1f476.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a baby piglet in a nappy holding a rattle, full body, in the same character style as the references. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "할머니",
+      "file": "img/words/1f475.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Granny Pig, an old pink pig in a big white sun hat with a pink band and a pink dress, standing and smiling, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "할아버지",
+      "file": "img/words/1f474.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Grandpa Pig, an old pink pig with white whiskers and a navy captain's hat with an anchor, in a purple top, standing and smiling, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "모자",
+      "file": "img/words/1f9e2.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a blue cap, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "양말",
+      "file": "img/words/1f9e6.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of striped socks, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "신발",
+      "file": "img/words/1f45f.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of sneakers, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "배",
+      "file": "img/words/1f350.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a yellow pear, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "말",
+      "file": "img/words/1f434.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a horse, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "소",
+      "file": "img/words/1f42e.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a cow, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "별",
+      "file": "img/words/2b50.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a yellow star, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "달",
+      "file": "img/words/1f319.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a crescent moon, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "꽃",
+      "file": "img/words/1f338.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pink flower, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "해",
+      "file": "img/words/2600.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a smiling yellow sun, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "하마",
+      "file": "img/words/1f99b.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a hippo, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "시계",
+      "file": "img/words/23f0.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an alarm clock, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "버스",
+      "file": "img/words/1f68c.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red bus, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "원숭이",
+      "file": "img/words/1f435.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a monkey, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "호랑이",
+      "file": "img/words/1f42f.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a tiger, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "비행기",
+      "file": "img/words/2708.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an aeroplane, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "귤",
+      "file": "img/words/1f34a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a tangerine, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "복숭아",
+      "file": "img/words/1f351.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a peach, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "레몬",
+      "file": "img/words/1f34b.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a lemon, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "체리",
+      "file": "img/words/1f352.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of cherries, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "토마토",
+      "file": "img/words/1f345.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red tomato, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "호박",
+      "file": "img/words/1f383.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an orange pumpkin, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "옥수수",
+      "file": "img/words/1f33d.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a corn cob, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "고추",
+      "file": "img/words/1f336.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red chilli pepper, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "버섯",
+      "file": "img/words/1f344.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a mushroom, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "브로콜리",
+      "file": "img/words/1f966.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a broccoli, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "돼지",
+      "file": "img/words/1f437.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a little pink pig, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "여우",
+      "file": "img/words/1f98a.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a fox, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "펭귄",
+      "file": "img/words/1f427.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a penguin, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "거북이",
+      "file": "img/words/1f422.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a turtle, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "개구리",
+      "file": "img/words/1f438.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a green frog, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "다람쥐",
+      "file": "img/words/1f43f.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a squirrel, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "부엉이",
+      "file": "img/words/1f989.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an owl, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "양",
+      "file": "img/words/1f411.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a fluffy sheep, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "용",
+      "file": "img/words/1f409.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a friendly green dragon, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "새",
+      "file": "img/words/1f426.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a little bird, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "게",
+      "file": "img/words/1f980.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red crab, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "개",
+      "file": "img/words/1f415.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a dog, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "개미",
+      "file": "img/words/1f41c.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an ant, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "거미",
+      "file": "img/words/1f577.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a friendly spider, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "나비",
+      "file": "img/words/1f98b.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a butterfly, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "문어",
+      "file": "img/words/1f419.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an octopus, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "고래",
+      "file": "img/words/1f433.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a blue whale, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "쥐",
+      "file": "img/words/1f42d.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a mouse, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "염소",
+      "file": "img/words/1f410.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a goat, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "케이크",
+      "file": "img/words/1f370.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a birthday cake, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "아이스크림",
+      "file": "img/words/1f366.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an ice cream cone, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "고기",
+      "file": "img/words/1f356.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a piece of meat on the bone, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "주스",
+      "file": "img/words/1f9c3.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a juice box with a straw, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "치즈",
+      "file": "img/words/1f9c0.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a wedge of cheese, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "꿀",
+      "file": "img/words/1f36f.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pot of honey, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "바지",
+      "file": "img/words/1f456.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of trousers, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "치마",
+      "file": "img/words/1f457.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a skirt, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "장갑",
+      "file": "img/words/1f9e4.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of mittens, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "티셔츠",
+      "file": "img/words/1f455.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a T-shirt, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "코트",
+      "file": "img/words/1f9e5.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a coat, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "목도리",
+      "file": "img/words/1f9e3.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a striped scarf, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "안경",
+      "file": "img/words/1f453.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of glasses, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "가방",
+      "file": "img/words/1f392.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a school backpack, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "구두",
+      "file": "img/words/1f45e.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of shoes, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "지갑",
+      "file": "img/words/1f45b.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a purse, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "기차",
+      "file": "img/words/1f682.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a toy steam train, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "자동차",
+      "file": "img/words/1f697.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a little red car, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "트럭",
+      "file": "img/words/1f69a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a truck, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "바다",
+      "file": "img/words/1f30a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: the blue sea with waves, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "산",
+      "file": "img/words/26f0.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a mountain, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "비",
+      "file": "img/words/1f327.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a rain cloud with raindrops, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "눈",
+      "file": "img/words/26c4.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a snowman in falling snow, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "나무",
+      "file": "img/words/1f333.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a round green tree, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "풀",
+      "file": "img/words/1f33f.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a tuft of green grass, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "밤",
+      "file": "img/words/1f330.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a chestnut, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "공",
+      "file": "img/words/26bd.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a football, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "책",
+      "file": "img/words/1f4da.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a picture book, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "약",
+      "file": "img/words/1f48a.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a bottle of medicine with a spoon, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "집",
+      "file": "img/words/1f3e0.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa's yellow house with a red roof, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "문",
+      "file": "img/words/1f6aa.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a front door, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "손",
+      "file": "img/words/270b.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a hand, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "발",
+      "file": "img/words/1f9b6.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a foot, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "입",
+      "file": "img/words/1f444.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a smiling mouth, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "귀",
+      "file": "img/words/1f442.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an ear, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "코",
+      "file": "img/words/1f443.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a nose, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "물",
+      "file": "img/words/1f4a7.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a drop of water, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "돈",
+      "file": "img/words/1f4b0.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: coins and a banknote, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "컵",
+      "file": "img/words/1f964.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a cup, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "우산",
+      "file": "img/words/2602.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an umbrella, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "의자",
+      "file": "img/words/1fa91.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a chair, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "야구",
+      "file": "img/words/26be.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a baseball and bat, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "요요",
+      "file": "img/words/1fa80.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a yo-yo, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "스키",
+      "file": "img/words/1f3bf.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pair of skis, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "드럼",
+      "file": "img/words/1f941.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a drum, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "피아노",
+      "file": "img/words/1f3b9.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a piano, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "로봇",
+      "file": "img/words/1f916.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a toy robot, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "왕관",
+      "file": "img/words/1f451.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a golden crown, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "열쇠",
+      "file": "img/words/1f511.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a key, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "연필",
+      "file": "img/words/270f.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a pencil, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "공책",
+      "file": "img/words/1f4d3.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a notebook, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "풍선",
+      "file": "img/words/1f388.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a red balloon, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "선물",
+      "file": "img/words/1f381.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a gift box with a bow, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "텐트",
+      "file": "img/words/26fa.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a tent, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "카메라",
+      "file": "img/words/1f4f7.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a camera, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "외계인",
+      "file": "img/words/1f47d.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a friendly little alien, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "유령",
+      "file": "img/words/1f47b.webp",
+      "refs": "animal",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a friendly little ghost, cute, drawn the way the show draws its animal friends. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "사람",
+      "file": "img/words/1f9d1.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a smiling child, full body, in the same character style as the references. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "박수",
+      "file": "img/words/1f44f.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: two clapping hands, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "포크",
+      "file": "img/words/1f374.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a fork, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "도끼",
+      "file": "img/words/1fa93.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: an axe, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "컴퓨터",
+      "file": "img/words/1f4bb.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a computer, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "키위",
+      "file": "img/words/1f95d.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a kiwi fruit cut in half, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "씨앗",
+      "file": "img/words/1f331.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a seed sprouting a tiny green shoot, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "똥",
+      "file": "img/words/1f4a9.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: a cute smiling swirl of poo, instantly recognisable for a 4-year-old. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:letters-1:4",
+      "file": "img/books/letters-1-4.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig waving hello happily on a green hill under a blue sky, as if greeting new friends. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:letters-2:5",
+      "file": "img/books/letters-2-5.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig and George Pig playing together with colourful balloons on the grass. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:letters-3:5",
+      "file": "img/books/letters-3-5.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig cheering with both arms up under colourful bunting flags at a little party. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:letters-4:10",
+      "file": "img/books/letters-4-10.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig waving under a big rainbow after the rain. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:fruit-1:8",
+      "file": "img/books/fruit-1-8.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig and George Pig happily eating fruit on a picnic blanket with apples, bananas, grapes and watermelon. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:fruit-2:0",
+      "file": "img/books/fruit-2-0.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig walking to a small corner shop with a red-and-white striped awning, holding an empty wicker shopping basket. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:fruit-2:5",
+      "file": "img/books/fruit-2-5.webp",
+      "refs": "rabbit",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig and her friend the cream-white rabbit girl in a pink dress holding a wicker basket full of apples, carrots and grapes, both smiling. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:food-1:8",
+      "file": "img/books/food-1-8.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: the Pig family — Peppa, George, Mummy Pig and Daddy Pig — at the kitchen table with dinner, hands together, about to eat happily. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:food-2:0",
+      "file": "img/books/food-2-0.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: George Pig in the kitchen holding his tummy, hungry, looking at the empty table. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:food-2:4",
+      "file": "img/books/food-2-4.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: George Pig smiling widely at a table with bread, a glass of milk and a bowl of noodles. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:animal-1:8",
+      "file": "img/books/animal-1-8.webp",
+      "refs": "rabbit",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig and the cream-white rabbit girl with animal friends — a puppy, a kitten, a bear and a duck — all smiling together. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:animal-2:4",
+      "file": "img/books/animal-2-4.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig and George Pig singing with a dog, a cat and a duck, little music notes floating in the air. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:family-1:0",
+      "file": "img/books/family-1-0.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig waving hello in front of her yellow house on top of a green hill. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:family-1:1",
+      "file": "img/books/family-1-1.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig with her arm around her little brother George Pig, who holds his green toy dinosaur. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:family-1:6",
+      "file": "img/books/family-1-6.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: the whole Pig family in a row smiling — Peppa, George, Mummy Pig, Daddy Pig, Granny Pig and Grandpa Pig — with little red hearts. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "book:family-2:3",
+      "file": "img/books/family-2-3.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "background": "opaque"
+      },
+      "prompt": "Picture-book page: Peppa Pig in a cap and shoes waving goodbye at the front door to Mummy Pig and Daddy Pig. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Simple Peppa Pig setting with flat green grass and light-blue sky unless stated. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:play",
+      "file": "img/bg/play.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: Peppa Pig's garden — flat green grass along the bottom with a few flowers and a little white picket fence, light-blue sky with a few simple clouds and a round sun. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:free",
+      "file": "img/bg/free.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: a children's playground on green grass — a swing set at the left edge and a slide at the right edge, light-blue sky with simple clouds. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:missions",
+      "file": "img/bg/missions.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: Peppa Pig's playgroup — a small school building with a bell on a green hill at the right edge, a round tree at the left edge, light-blue sky. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:galaxy",
+      "file": "img/bg/galaxy.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: a friendly night sky — dark navy blue with small yellow stars, a smiling crescent moon in the top corner and two simple round planets near the edges. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:reading",
+      "file": "img/bg/reading.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: a cosy reading room — wooden bookshelves full of colourful books at the left and right edges, a round rug on the floor, a window with blue sky at the top. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "bg:studio",
+      "file": "img/bg/studio.webp",
+      "refs": "scene",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "background": "opaque"
+      },
+      "prompt": "Wide background for a children's app screen: a cheerful art corner — an easel with a blank canvas at the left edge, pots of paint and brushes on a little table at the right edge, a window with blue sky. No characters, no people. Keep the whole middle area plain and empty so buttons and cards can sit on top. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:lock",
+      "file": "img/icons/ui-lock.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a cute golden padlock. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:heart",
+      "file": "img/icons/ui-heart.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a red heart. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:party",
+      "file": "img/icons/ui-party.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a party popper bursting with colourful confetti. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:sparkle",
+      "file": "img/icons/ui-sparkle.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: three twinkling yellow sparkles. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:rainbow",
+      "file": "img/icons/ui-rainbow.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a rainbow with a little white cloud at each end. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:gem",
+      "file": "img/icons/ui-gem.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a sparkly blue gem. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:music",
+      "file": "img/icons/ui-music.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: two joined music notes. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:eraser",
+      "file": "img/icons/ui-eraser.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a pink rubber eraser. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:undo",
+      "file": "img/icons/ui-undo.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a thick curved arrow turning back to the left. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:trash",
+      "file": "img/icons/ui-trash.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a little green rubbish bin with a lid. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:ui:save",
+      "file": "img/icons/ui-save.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a wooden picture frame with a tiny painting of a sun over a green hill inside. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:pencil",
+      "file": "img/icons/tool-pencil.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a yellow pencil lying diagonally, its sharpened tip pointing to the bottom-left corner. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:crayon",
+      "file": "img/icons/tool-crayon.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a red wax crayon lying diagonally, its tip pointing to the bottom-left corner. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:brush",
+      "file": "img/icons/tool-brush.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a paintbrush with a wooden handle and pink paint on its bristles, lying diagonally with the bristles pointing to the bottom-left corner. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:glitter",
+      "file": "img/icons/tool-glitter.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a sparkly glitter pen with tiny twinkling stars at its tip, lying diagonally with the tip pointing to the bottom-left corner. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:rainbow",
+      "file": "img/icons/tool-rainbow.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a rainbow-striped crayon lying diagonally, its tip pointing to the bottom-left corner. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "icon:tool:bucket",
+      "file": "img/icons/tool-bucket.webp",
+      "refs": "object",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Icon: a small blue paint bucket tipping over with a big splash of pink paint. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:sound-station",
+      "file": "img/scenes/free-sound-station.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig standing at a little bus stop sign, a small red bus arriving behind her, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:letter-mine",
+      "file": "img/scenes/free-letter-mine.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: George Pig in a yellow hard hat swinging a small pickaxe at a big grey rock with sparkling blue gems, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:letter-wheel",
+      "file": "img/scenes/free-letter-wheel.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig spinning a big colourful prize wheel, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:trace",
+      "file": "img/scenes/free-trace.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Mummy Pig tracing a dotted line on a sheet of paper with a yellow pencil, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:free-write",
+      "file": "img/scenes/free-free-write.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig writing on a small chalkboard with a piece of chalk, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:word-card",
+      "file": "img/scenes/free-word-card.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: George Pig holding up a fan of colourful picture cards, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:rhythm",
+      "file": "img/scenes/free-rhythm.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig happily playing a small red drum with two drumsticks, music notes floating, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:assemble",
+      "file": "img/scenes/free-assemble.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: George Pig putting together big colourful jigsaw puzzle pieces, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:cauldron",
+      "file": "img/scenes/free-cauldron.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Grandpa Pig stirring a bubbling green cauldron with a big wooden spoon, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:word-soccer",
+      "file": "img/scenes/free-word-soccer.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: George Pig kicking a football towards a small white goal, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:listen-pick",
+      "file": "img/scenes/free-listen-pick.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig wearing big blue headphones and listening happily, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:pieces",
+      "file": "img/scenes/free-pieces.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig sticking colourful paper pieces together with a glue stick, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:explain",
+      "file": "img/scenes/free-explain.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Granny Pig pointing at a big picture card and explaining, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:find-me",
+      "file": "img/scenes/free-find-me.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Peppa Pig looking through a big magnifying glass, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    },
+    {
+      "key": "scene:free:read-answer",
+      "file": "img/scenes/free-read-answer.webp",
+      "refs": "cast",
+      "params": {
+        "model": "gpt_image_2_5",
+        "quality": "medium",
+        "resolution": "1k",
+        "aspect_ratio": "1:1",
+        "background": "transparent"
+      },
+      "prompt": "Picture card: Daddy Pig reading an open picture book and raising one hand happily, full body. Draw the characters exactly as in the reference images: same faces, same clothes, side profile with both eyes on the same side, like the show. Centred with a small margin, fully transparent background, no ground, no shadow. Peppa Pig cartoon style, exactly like the reference images: flat 2D, simple rounded shapes, solid flat colours, no gradients, no shading, thin outlines slightly darker than each fill colour, cheerful colours, minimal detail. No text, letters or numbers anywhere."
+    }
+  ]
+}

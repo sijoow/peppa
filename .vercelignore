@@ -1,0 +1,9 @@
+# 배포에 안 올리는 것 — 원본 그림·작업 파일(그림은 Cafe24 에서 불러온다)
+drafts/
+refs/
+out/
+tsconfig.tsbuildinfo
+public/voice/candidates.html
+public/img/*
+!public/img/app-icon.png
+!public/img/app-icon-192.png

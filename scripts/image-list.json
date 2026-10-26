@@ -1,0 +1,1273 @@
+{
+  "total": 244,
+  "characters": [
+    {
+      "key": "mascot",
+      "now": "인물도 카드",
+      "what": "안내 페파 — 전신, 손 흔들며 인사 (바탕 투명)"
+    },
+    {
+      "key": "mascot:cheer",
+      "now": "인물도 카드",
+      "what": "안내 페파 — 두 팔 들고 신난 모습 (바탕 투명)"
+    },
+    {
+      "key": "mascot:wow",
+      "now": "인물도 카드",
+      "what": "안내 페파 — 깜짝 놀란 모습 (바탕 투명)"
+    },
+    {
+      "key": "app-icon",
+      "now": "icon.svg",
+      "what": "앱 아이콘 — 페파 얼굴 (512×512)"
+    },
+    {
+      "key": "bg:home",
+      "now": "CSS 구름",
+      "what": "첫 화면 바탕 — 언덕 위 페파네 집과 하늘 (시안 gpt-3-home-bg)"
+    }
+  ],
+  "words": [
+    {
+      "key": "사과",
+      "now": "🍎",
+      "what": "낱말 그림: 사과"
+    },
+    {
+      "key": "바나나",
+      "now": "🍌",
+      "what": "낱말 그림: 바나나"
+    },
+    {
+      "key": "포도",
+      "now": "🍇",
+      "what": "낱말 그림: 포도"
+    },
+    {
+      "key": "딸기",
+      "now": "🍓",
+      "what": "낱말 그림: 딸기"
+    },
+    {
+      "key": "수박",
+      "now": "🍉",
+      "what": "낱말 그림: 수박"
+    },
+    {
+      "key": "당근",
+      "now": "🥕",
+      "what": "낱말 그림: 당근"
+    },
+    {
+      "key": "오이",
+      "now": "🥒",
+      "what": "낱말 그림: 오이"
+    },
+    {
+      "key": "감자",
+      "now": "🥔",
+      "what": "낱말 그림: 감자"
+    },
+    {
+      "key": "밥",
+      "now": "🍚",
+      "what": "낱말 그림: 밥"
+    },
+    {
+      "key": "빵",
+      "now": "🍞",
+      "what": "낱말 그림: 빵"
+    },
+    {
+      "key": "우유",
+      "now": "🥛",
+      "what": "낱말 그림: 우유"
+    },
+    {
+      "key": "국수",
+      "now": "🍜",
+      "what": "낱말 그림: 국수"
+    },
+    {
+      "key": "달걀",
+      "now": "🥚",
+      "what": "낱말 그림: 달걀"
+    },
+    {
+      "key": "피자",
+      "now": "🍕",
+      "what": "낱말 그림: 피자"
+    },
+    {
+      "key": "과자",
+      "now": "🍪",
+      "what": "낱말 그림: 과자"
+    },
+    {
+      "key": "사탕",
+      "now": "🍬",
+      "what": "낱말 그림: 사탕"
+    },
+    {
+      "key": "강아지",
+      "now": "🐶",
+      "what": "낱말 그림: 강아지"
+    },
+    {
+      "key": "고양이",
+      "now": "🐱",
+      "what": "낱말 그림: 고양이"
+    },
+    {
+      "key": "토끼",
+      "now": "🐰",
+      "what": "낱말 그림: 토끼",
+      "who": "토끼(조연) — a cream-white rabbit girl with long upright ears in a pink dress, Peppa's friend"
+    },
+    {
+      "key": "곰",
+      "now": "🐻",
+      "what": "낱말 그림: 곰"
+    },
+    {
+      "key": "사자",
+      "now": "🦁",
+      "what": "낱말 그림: 사자"
+    },
+    {
+      "key": "기린",
+      "now": "🦒",
+      "what": "낱말 그림: 기린"
+    },
+    {
+      "key": "오리",
+      "now": "🦆",
+      "what": "낱말 그림: 오리"
+    },
+    {
+      "key": "코끼리",
+      "now": "🐘",
+      "what": "낱말 그림: 코끼리"
+    },
+    {
+      "key": "엄마",
+      "now": "👩",
+      "what": "낱말 그림: 엄마",
+      "who": "엄마(주인공) — Mummy Pig, a pink pig mother with long eyelashes, in an orange dress"
+    },
+    {
+      "key": "아빠",
+      "now": "👨",
+      "what": "낱말 그림: 아빠",
+      "who": "아빠(주인공) — Daddy Pig, a big pink pig with round black glasses and a stubbly chin, in a teal top"
+    },
+    {
+      "key": "아기",
+      "now": "👶",
+      "what": "낱말 그림: 아기"
+    },
+    {
+      "key": "할머니",
+      "now": "👵",
+      "what": "낱말 그림: 할머니",
+      "who": "할머니(조연) — Granny Pig, an old pink pig in a big white sun hat with a pink band and a pink dress"
+    },
+    {
+      "key": "할아버지",
+      "now": "👴",
+      "what": "낱말 그림: 할아버지",
+      "who": "할아버지(조연) — Grandpa Pig, an old pink pig with white whiskers and a navy captain's hat with an anchor, in a purple top"
+    },
+    {
+      "key": "모자",
+      "now": "🧢",
+      "what": "낱말 그림: 모자"
+    },
+    {
+      "key": "양말",
+      "now": "🧦",
+      "what": "낱말 그림: 양말"
+    },
+    {
+      "key": "신발",
+      "now": "👟",
+      "what": "낱말 그림: 신발"
+    },
+    {
+      "key": "배",
+      "now": "🍐",
+      "what": "낱말 그림: 배"
+    },
+    {
+      "key": "말",
+      "now": "🐴",
+      "what": "낱말 그림: 말"
+    },
+    {
+      "key": "소",
+      "now": "🐮",
+      "what": "낱말 그림: 소"
+    },
+    {
+      "key": "별",
+      "now": "⭐",
+      "what": "낱말 그림: 별"
+    },
+    {
+      "key": "달",
+      "now": "🌙",
+      "what": "낱말 그림: 달"
+    },
+    {
+      "key": "꽃",
+      "now": "🌸",
+      "what": "낱말 그림: 꽃"
+    },
+    {
+      "key": "해",
+      "now": "☀️",
+      "what": "낱말 그림: 해"
+    },
+    {
+      "key": "하마",
+      "now": "🦛",
+      "what": "낱말 그림: 하마"
+    },
+    {
+      "key": "시계",
+      "now": "⏰",
+      "what": "낱말 그림: 시계"
+    },
+    {
+      "key": "버스",
+      "now": "🚌",
+      "what": "낱말 그림: 버스"
+    },
+    {
+      "key": "원숭이",
+      "now": "🐵",
+      "what": "낱말 그림: 원숭이"
+    },
+    {
+      "key": "호랑이",
+      "now": "🐯",
+      "what": "낱말 그림: 호랑이"
+    },
+    {
+      "key": "비행기",
+      "now": "✈️",
+      "what": "낱말 그림: 비행기"
+    },
+    {
+      "key": "귤",
+      "now": "🍊",
+      "what": "낱말 그림: 귤"
+    },
+    {
+      "key": "복숭아",
+      "now": "🍑",
+      "what": "낱말 그림: 복숭아"
+    },
+    {
+      "key": "레몬",
+      "now": "🍋",
+      "what": "낱말 그림: 레몬"
+    },
+    {
+      "key": "체리",
+      "now": "🍒",
+      "what": "낱말 그림: 체리"
+    },
+    {
+      "key": "토마토",
+      "now": "🍅",
+      "what": "낱말 그림: 토마토"
+    },
+    {
+      "key": "호박",
+      "now": "🎃",
+      "what": "낱말 그림: 호박"
+    },
+    {
+      "key": "옥수수",
+      "now": "🌽",
+      "what": "낱말 그림: 옥수수"
+    },
+    {
+      "key": "고추",
+      "now": "🌶️",
+      "what": "낱말 그림: 고추"
+    },
+    {
+      "key": "버섯",
+      "now": "🍄",
+      "what": "낱말 그림: 버섯"
+    },
+    {
+      "key": "브로콜리",
+      "now": "🥦",
+      "what": "낱말 그림: 브로콜리"
+    },
+    {
+      "key": "돼지",
+      "now": "🐷",
+      "what": "낱말 그림: 돼지"
+    },
+    {
+      "key": "여우",
+      "now": "🦊",
+      "what": "낱말 그림: 여우"
+    },
+    {
+      "key": "펭귄",
+      "now": "🐧",
+      "what": "낱말 그림: 펭귄"
+    },
+    {
+      "key": "거북이",
+      "now": "🐢",
+      "what": "낱말 그림: 거북이"
+    },
+    {
+      "key": "개구리",
+      "now": "🐸",
+      "what": "낱말 그림: 개구리"
+    },
+    {
+      "key": "다람쥐",
+      "now": "🐿️",
+      "what": "낱말 그림: 다람쥐"
+    },
+    {
+      "key": "부엉이",
+      "now": "🦉",
+      "what": "낱말 그림: 부엉이"
+    },
+    {
+      "key": "양",
+      "now": "🐑",
+      "what": "낱말 그림: 양"
+    },
+    {
+      "key": "용",
+      "now": "🐉",
+      "what": "낱말 그림: 용"
+    },
+    {
+      "key": "새",
+      "now": "🐦",
+      "what": "낱말 그림: 새"
+    },
+    {
+      "key": "게",
+      "now": "🦀",
+      "what": "낱말 그림: 게"
+    },
+    {
+      "key": "개",
+      "now": "🐕",
+      "what": "낱말 그림: 개"
+    },
+    {
+      "key": "개미",
+      "now": "🐜",
+      "what": "낱말 그림: 개미"
+    },
+    {
+      "key": "거미",
+      "now": "🕷️",
+      "what": "낱말 그림: 거미"
+    },
+    {
+      "key": "나비",
+      "now": "🦋",
+      "what": "낱말 그림: 나비"
+    },
+    {
+      "key": "문어",
+      "now": "🐙",
+      "what": "낱말 그림: 문어"
+    },
+    {
+      "key": "고래",
+      "now": "🐳",
+      "what": "낱말 그림: 고래"
+    },
+    {
+      "key": "쥐",
+      "now": "🐭",
+      "what": "낱말 그림: 쥐"
+    },
+    {
+      "key": "염소",
+      "now": "🐐",
+      "what": "낱말 그림: 염소"
+    },
+    {
+      "key": "케이크",
+      "now": "🍰",
+      "what": "낱말 그림: 케이크"
+    },
+    {
+      "key": "아이스크림",
+      "now": "🍦",
+      "what": "낱말 그림: 아이스크림"
+    },
+    {
+      "key": "고기",
+      "now": "🍖",
+      "what": "낱말 그림: 고기"
+    },
+    {
+      "key": "주스",
+      "now": "🧃",
+      "what": "낱말 그림: 주스"
+    },
+    {
+      "key": "치즈",
+      "now": "🧀",
+      "what": "낱말 그림: 치즈"
+    },
+    {
+      "key": "꿀",
+      "now": "🍯",
+      "what": "낱말 그림: 꿀"
+    },
+    {
+      "key": "바지",
+      "now": "👖",
+      "what": "낱말 그림: 바지"
+    },
+    {
+      "key": "치마",
+      "now": "👗",
+      "what": "낱말 그림: 치마"
+    },
+    {
+      "key": "장갑",
+      "now": "🧤",
+      "what": "낱말 그림: 장갑"
+    },
+    {
+      "key": "티셔츠",
+      "now": "👕",
+      "what": "낱말 그림: 티셔츠"
+    },
+    {
+      "key": "코트",
+      "now": "🧥",
+      "what": "낱말 그림: 코트"
+    },
+    {
+      "key": "목도리",
+      "now": "🧣",
+      "what": "낱말 그림: 목도리"
+    },
+    {
+      "key": "안경",
+      "now": "👓",
+      "what": "낱말 그림: 안경"
+    },
+    {
+      "key": "가방",
+      "now": "🎒",
+      "what": "낱말 그림: 가방"
+    },
+    {
+      "key": "구두",
+      "now": "👞",
+      "what": "낱말 그림: 구두"
+    },
+    {
+      "key": "지갑",
+      "now": "👛",
+      "what": "낱말 그림: 지갑"
+    },
+    {
+      "key": "기차",
+      "now": "🚂",
+      "what": "낱말 그림: 기차"
+    },
+    {
+      "key": "자동차",
+      "now": "🚗",
+      "what": "낱말 그림: 자동차"
+    },
+    {
+      "key": "트럭",
+      "now": "🚚",
+      "what": "낱말 그림: 트럭"
+    },
+    {
+      "key": "바다",
+      "now": "🌊",
+      "what": "낱말 그림: 바다"
+    },
+    {
+      "key": "산",
+      "now": "⛰️",
+      "what": "낱말 그림: 산"
+    },
+    {
+      "key": "비",
+      "now": "🌧️",
+      "what": "낱말 그림: 비"
+    },
+    {
+      "key": "눈",
+      "now": "⛄",
+      "what": "낱말 그림: 눈"
+    },
+    {
+      "key": "나무",
+      "now": "🌳",
+      "what": "낱말 그림: 나무"
+    },
+    {
+      "key": "풀",
+      "now": "🌿",
+      "what": "낱말 그림: 풀"
+    },
+    {
+      "key": "밤",
+      "now": "🌰",
+      "what": "낱말 그림: 밤"
+    },
+    {
+      "key": "공",
+      "now": "⚽",
+      "what": "낱말 그림: 공"
+    },
+    {
+      "key": "책",
+      "now": "📚",
+      "what": "낱말 그림: 책"
+    },
+    {
+      "key": "약",
+      "now": "💊",
+      "what": "낱말 그림: 약"
+    },
+    {
+      "key": "집",
+      "now": "🏠",
+      "what": "낱말 그림: 집"
+    },
+    {
+      "key": "문",
+      "now": "🚪",
+      "what": "낱말 그림: 문"
+    },
+    {
+      "key": "손",
+      "now": "✋",
+      "what": "낱말 그림: 손"
+    },
+    {
+      "key": "발",
+      "now": "🦶",
+      "what": "낱말 그림: 발"
+    },
+    {
+      "key": "입",
+      "now": "👄",
+      "what": "낱말 그림: 입"
+    },
+    {
+      "key": "귀",
+      "now": "👂",
+      "what": "낱말 그림: 귀"
+    },
+    {
+      "key": "코",
+      "now": "👃",
+      "what": "낱말 그림: 코"
+    },
+    {
+      "key": "물",
+      "now": "💧",
+      "what": "낱말 그림: 물"
+    },
+    {
+      "key": "돈",
+      "now": "💰",
+      "what": "낱말 그림: 돈"
+    },
+    {
+      "key": "컵",
+      "now": "🥤",
+      "what": "낱말 그림: 컵"
+    },
+    {
+      "key": "우산",
+      "now": "☂️",
+      "what": "낱말 그림: 우산"
+    },
+    {
+      "key": "의자",
+      "now": "🪑",
+      "what": "낱말 그림: 의자"
+    },
+    {
+      "key": "야구",
+      "now": "⚾",
+      "what": "낱말 그림: 야구"
+    },
+    {
+      "key": "요요",
+      "now": "🪀",
+      "what": "낱말 그림: 요요"
+    },
+    {
+      "key": "스키",
+      "now": "🎿",
+      "what": "낱말 그림: 스키"
+    },
+    {
+      "key": "드럼",
+      "now": "🥁",
+      "what": "낱말 그림: 드럼"
+    },
+    {
+      "key": "피아노",
+      "now": "🎹",
+      "what": "낱말 그림: 피아노"
+    },
+    {
+      "key": "로봇",
+      "now": "🤖",
+      "what": "낱말 그림: 로봇"
+    },
+    {
+      "key": "왕관",
+      "now": "👑",
+      "what": "낱말 그림: 왕관"
+    },
+    {
+      "key": "열쇠",
+      "now": "🔑",
+      "what": "낱말 그림: 열쇠"
+    },
+    {
+      "key": "연필",
+      "now": "✏️",
+      "what": "낱말 그림: 연필"
+    },
+    {
+      "key": "공책",
+      "now": "📓",
+      "what": "낱말 그림: 공책"
+    },
+    {
+      "key": "풍선",
+      "now": "🎈",
+      "what": "낱말 그림: 풍선"
+    },
+    {
+      "key": "선물",
+      "now": "🎁",
+      "what": "낱말 그림: 선물"
+    },
+    {
+      "key": "텐트",
+      "now": "⛺",
+      "what": "낱말 그림: 텐트"
+    },
+    {
+      "key": "카메라",
+      "now": "📷",
+      "what": "낱말 그림: 카메라"
+    },
+    {
+      "key": "외계인",
+      "now": "👽",
+      "what": "낱말 그림: 외계인"
+    },
+    {
+      "key": "유령",
+      "now": "👻",
+      "what": "낱말 그림: 유령"
+    },
+    {
+      "key": "사람",
+      "now": "🧑",
+      "what": "낱말 그림: 사람"
+    },
+    {
+      "key": "박수",
+      "now": "👏",
+      "what": "낱말 그림: 박수"
+    },
+    {
+      "key": "포크",
+      "now": "🍴",
+      "what": "낱말 그림: 포크"
+    },
+    {
+      "key": "도끼",
+      "now": "🪓",
+      "what": "낱말 그림: 도끼"
+    },
+    {
+      "key": "컴퓨터",
+      "now": "💻",
+      "what": "낱말 그림: 컴퓨터"
+    },
+    {
+      "key": "키위",
+      "now": "🥝",
+      "what": "낱말 그림: 키위"
+    },
+    {
+      "key": "씨앗",
+      "now": "🌱",
+      "what": "낱말 그림: 씨앗"
+    },
+    {
+      "key": "똥",
+      "now": "💩",
+      "what": "낱말 그림: 똥"
+    }
+  ],
+  "bookScenes": [
+    {
+      "key": "book:letters-1:4",
+      "now": "🤗",
+      "what": "책 「ㄱ ㄴ ㄷ ㄹ 친구」 5쪽: 안녕, 글자 친구들!",
+      "who": "페파"
+    },
+    {
+      "key": "book:letters-2:5",
+      "now": "🎈",
+      "what": "책 「ㅁ ㅂ ㅅ ㅇ ㅈ 친구」 6쪽: 우리 같이 놀자!",
+      "who": "페파"
+    },
+    {
+      "key": "book:letters-3:5",
+      "now": "🎉",
+      "what": "책 「ㅊ ㅋ ㅌ ㅍ ㅎ 친구」 6쪽: 자음 친구 다 모였다!",
+      "who": "페파"
+    },
+    {
+      "key": "book:letters-4:10",
+      "now": "🌈",
+      "what": "책 「모음 친구」 11쪽: 모음 친구 안녕!",
+      "who": "페파"
+    },
+    {
+      "key": "book:fruit-1:8",
+      "now": "😋",
+      "what": "책 「냠냠 과일 채소」 9쪽: 다 맛있어!",
+      "who": "페파·조지"
+    },
+    {
+      "key": "book:fruit-2:0",
+      "now": "🐷",
+      "what": "책 「페파의 장바구니」 1쪽: 페파가 장을 봐요.",
+      "who": "페파·토끼"
+    },
+    {
+      "key": "book:fruit-2:5",
+      "now": "🧺",
+      "what": "책 「페파의 장바구니」 6쪽: 장바구니가 꽉 찼어요!",
+      "who": "페파·토끼"
+    },
+    {
+      "key": "book:food-1:8",
+      "now": "🙏",
+      "what": "책 「맛있는 밥상」 9쪽: 잘 먹겠습니다!",
+      "who": "페파·조지·엄마·아빠"
+    },
+    {
+      "key": "book:food-2:0",
+      "now": "🐷",
+      "what": "책 「꼬르륵 배고파」 1쪽: 꼬르륵, 조지가 배고파요.",
+      "who": "조지"
+    },
+    {
+      "key": "book:food-2:4",
+      "now": "😆",
+      "what": "책 「꼬르륵 배고파」 5쪽: 다 먹고 싶어!",
+      "who": "조지"
+    },
+    {
+      "key": "book:animal-1:8",
+      "now": "🥰",
+      "what": "책 「동물 친구들」 9쪽: 모두 친구야!",
+      "who": "페파·토끼"
+    },
+    {
+      "key": "book:animal-2:4",
+      "now": "🎵",
+      "what": "책 「누구 소리일까?」 5쪽: 다 같이 노래해요!",
+      "who": "페파·조지"
+    },
+    {
+      "key": "book:family-1:0",
+      "now": "🐷",
+      "what": "책 「우리 가족」 1쪽: 안녕, 나는 페파야!",
+      "who": "페파·조지·엄마·아빠·할머니·할아버지"
+    },
+    {
+      "key": "book:family-1:1",
+      "now": "🐷",
+      "what": "책 「우리 가족」 2쪽: 내 동생 조지야.",
+      "who": "페파·조지·엄마·아빠·할머니·할아버지"
+    },
+    {
+      "key": "book:family-1:6",
+      "now": "❤️",
+      "what": "책 「우리 가족」 7쪽: 우리 가족, 사랑해요!",
+      "who": "페파·조지·엄마·아빠·할머니·할아버지"
+    },
+    {
+      "key": "book:family-2:3",
+      "now": "👋",
+      "what": "책 「아침에 나가요」 4쪽: 엄마, 아빠, 다녀오겠습니다!",
+      "who": "페파·엄마·아빠"
+    }
+  ],
+  "icons": [
+    {
+      "key": "icon:menu:free",
+      "now": "🎮",
+      "what": "메뉴 아이콘(인물): 자유 모드",
+      "who": "페파 — 진흙 웅덩이에서 폴짝 뛰기"
+    },
+    {
+      "key": "icon:menu:missions",
+      "now": "🏅",
+      "what": "메뉴 아이콘(인물): 미션",
+      "who": "조지 — 금메달을 목에 걸고 뿌듯"
+    },
+    {
+      "key": "icon:menu:galaxy",
+      "now": "🚀",
+      "what": "메뉴 아이콘(인물): 은하계 여행",
+      "who": "조지 — 우주 헬멧 쓰고 작은 로켓 타기"
+    },
+    {
+      "key": "icon:menu:reading",
+      "now": "🎤",
+      "what": "메뉴 아이콘(인물): 읽기 연습",
+      "who": "페파 — 그림책을 펼쳐 소리 내어 읽기"
+    },
+    {
+      "key": "icon:menu:studio",
+      "now": "🎨",
+      "what": "메뉴 아이콘(인물): 작업실",
+      "who": "엄마 — 붓과 팔레트로 그림 그리기"
+    },
+    {
+      "key": "icon:menu:diagnose",
+      "now": "🧭",
+      "what": "메뉴 아이콘(인물): 단원 찾기 퀴즈",
+      "who": "아빠 — 돋보기 들고 찾기"
+    },
+    {
+      "key": "icon:free:sound-station",
+      "now": "🚌",
+      "what": "자유 모드 놀이: 말소리 정류장"
+    },
+    {
+      "key": "icon:free:letter-mine",
+      "now": "⛏️",
+      "what": "자유 모드 놀이: 으랏차 글자 광산"
+    },
+    {
+      "key": "icon:free:letter-wheel",
+      "now": "🎡",
+      "what": "자유 모드 놀이: 돌려라 글자판"
+    },
+    {
+      "key": "icon:free:trace",
+      "now": "✏️",
+      "what": "자유 모드 놀이: 따라쓰기"
+    },
+    {
+      "key": "icon:free:free-write",
+      "now": "📝",
+      "what": "자유 모드 놀이: 글자를 써보자"
+    },
+    {
+      "key": "icon:free:word-card",
+      "now": "🃏",
+      "what": "자유 모드 놀이: 손글씨 낱말 카드"
+    },
+    {
+      "key": "icon:free:rhythm",
+      "now": "🥁",
+      "what": "자유 모드 놀이: 리듬 한글"
+    },
+    {
+      "key": "icon:free:assemble",
+      "now": "🧩",
+      "what": "자유 모드 놀이: 모여라 자음 모음"
+    },
+    {
+      "key": "icon:free:cauldron",
+      "now": "🧪",
+      "what": "자유 모드 놀이: 마법의 솥"
+    },
+    {
+      "key": "icon:free:word-soccer",
+      "now": "⚽",
+      "what": "자유 모드 놀이: 단어 축구"
+    },
+    {
+      "key": "icon:free:listen-pick",
+      "now": "👂",
+      "what": "자유 모드 놀이: 듣고 글자 고르기"
+    },
+    {
+      "key": "icon:free:pieces",
+      "now": "🧷",
+      "what": "자유 모드 놀이: 조각 조각 붙여요"
+    },
+    {
+      "key": "icon:free:explain",
+      "now": "💬",
+      "what": "자유 모드 놀이: 설명해 주세요"
+    },
+    {
+      "key": "icon:free:find-me",
+      "now": "🔎",
+      "what": "자유 모드 놀이: 나를 찾아줘"
+    },
+    {
+      "key": "icon:free:read-answer",
+      "now": "📖",
+      "what": "자유 모드 놀이: 읽고 답해요"
+    },
+    {
+      "key": "icon:studio:draw",
+      "now": "🖍️",
+      "what": "작업실: 자유 그리기"
+    },
+    {
+      "key": "icon:studio:color",
+      "now": "🎨",
+      "what": "작업실: 색칠하기"
+    },
+    {
+      "key": "icon:studio:letter-color",
+      "now": "🔤",
+      "what": "작업실: 글자 색칠하기"
+    },
+    {
+      "key": "icon:studio:word-write",
+      "now": "✍️",
+      "what": "작업실: 낱말 쓰기 연습"
+    },
+    {
+      "key": "icon:studio:sentence-write",
+      "now": "📜",
+      "what": "작업실: 문장 쓰기 연습"
+    },
+    {
+      "key": "icon:studio:card",
+      "now": "💌",
+      "what": "작업실: 카드 쓰기"
+    },
+    {
+      "key": "icon:galaxy:pick",
+      "now": "🪐",
+      "what": "은하계: 글자 고르기 은하"
+    },
+    {
+      "key": "icon:galaxy:type-1",
+      "now": "⌨️",
+      "what": "은하계: 타자 연습 은하 1"
+    },
+    {
+      "key": "icon:galaxy:word-quiz",
+      "now": "🌟",
+      "what": "은하계: 낱말 퀴즈 은하"
+    },
+    {
+      "key": "icon:galaxy:word-find-1",
+      "now": "🔭",
+      "what": "은하계: 낱말 찾기 은하 1"
+    },
+    {
+      "key": "icon:galaxy:type-2",
+      "now": "🚀",
+      "what": "은하계: 타자 연습 은하 2"
+    },
+    {
+      "key": "icon:galaxy:word-find-2",
+      "now": "☄️",
+      "what": "은하계: 낱말 찾기 은하 2"
+    },
+    {
+      "key": "icon:reading:coach",
+      "now": "🎤",
+      "what": "읽기 연습: 페파의 읽기 코칭"
+    },
+    {
+      "key": "icon:reading:record",
+      "now": "📼",
+      "what": "읽기 연습: 또박또박 책 녹음"
+    },
+    {
+      "key": "icon:reading:books",
+      "now": "📚",
+      "what": "읽기 연습: 책 고르기"
+    },
+    {
+      "key": "icon:mission:badge",
+      "now": "🏅",
+      "what": "미션 배지"
+    },
+    {
+      "key": "icon:mission:target",
+      "now": "🎯",
+      "what": "미션 도전"
+    },
+    {
+      "key": "icon:firefly",
+      "now": "반딧불이(SVG)",
+      "what": "모으는 반딧불이 — 보상"
+    }
+  ],
+  "coloring": [
+    {
+      "key": "color:peppa",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 페파(주인공)",
+      "who": "Peppa Pig, a little pink pig girl in a red dress"
+    },
+    {
+      "key": "color:george",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 조지(주인공)",
+      "who": "George Pig, Peppa's little brother, a small pink pig boy in a blue top"
+    },
+    {
+      "key": "color:daddy",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 아빠(주인공)",
+      "who": "Daddy Pig, a big pink pig with round black glasses and a stubbly chin, in a teal top"
+    },
+    {
+      "key": "color:mummy",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 엄마(주인공)",
+      "who": "Mummy Pig, a pink pig mother with long eyelashes, in an orange dress"
+    },
+    {
+      "key": "color:grandpa",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 할아버지(조연)",
+      "who": "Grandpa Pig, an old pink pig with white whiskers and a navy captain's hat with an anchor, in a purple top"
+    },
+    {
+      "key": "color:granny",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 할머니(조연)",
+      "who": "Granny Pig, an old pink pig in a big white sun hat with a pink band and a pink dress"
+    },
+    {
+      "key": "color:rabbit",
+      "now": "없음",
+      "what": "색칠하기 선 그림: 토끼(조연)",
+      "who": "a cream-white rabbit girl with long upright ears in a pink dress, Peppa's friend"
+    }
+  ],
+  "scenes": [
+    {
+      "key": "bg:play",
+      "now": "종이 바탕",
+      "what": "오늘의 모험·단원 찾기 — 페파네 정원"
+    },
+    {
+      "key": "bg:free",
+      "now": "종이 바탕",
+      "what": "자유 모드 — 놀이터"
+    },
+    {
+      "key": "bg:missions",
+      "now": "종이 바탕",
+      "what": "미션 — 놀이학교"
+    },
+    {
+      "key": "bg:galaxy",
+      "now": "CSS 밤하늘",
+      "what": "은하계 여행 — 밤하늘"
+    },
+    {
+      "key": "bg:reading",
+      "now": "종이 바탕",
+      "what": "읽기 연습 — 책방"
+    },
+    {
+      "key": "bg:studio",
+      "now": "종이 바탕",
+      "what": "작업실 — 그림 그리는 구석"
+    }
+  ],
+  "ui": [
+    {
+      "key": "icon:ui:lock",
+      "now": "🔒",
+      "what": "잠금"
+    },
+    {
+      "key": "icon:ui:heart",
+      "now": "❤️",
+      "what": "하트(목숨·사랑 카드·스티커)"
+    },
+    {
+      "key": "icon:ui:party",
+      "now": "🎉",
+      "what": "축하"
+    },
+    {
+      "key": "icon:ui:sparkle",
+      "now": "✨",
+      "what": "반짝"
+    },
+    {
+      "key": "icon:ui:rainbow",
+      "now": "🌈",
+      "what": "무지개 스티커"
+    },
+    {
+      "key": "icon:ui:gem",
+      "now": "💎",
+      "what": "글자 광산 보석"
+    },
+    {
+      "key": "icon:ui:music",
+      "now": "🎵",
+      "what": "리듬 음표"
+    },
+    {
+      "key": "icon:ui:eraser",
+      "now": "🧽",
+      "what": "지우개"
+    },
+    {
+      "key": "icon:ui:undo",
+      "now": "↩️",
+      "what": "되돌리기"
+    },
+    {
+      "key": "icon:ui:trash",
+      "now": "🗑️",
+      "what": "모두 지우기"
+    },
+    {
+      "key": "icon:ui:save",
+      "now": "💾",
+      "what": "저장(액자)"
+    },
+    {
+      "key": "icon:tool:pencil",
+      "now": "✏️",
+      "what": "연필(글자 쓰기)"
+    },
+    {
+      "key": "icon:tool:crayon",
+      "now": "🖍️",
+      "what": "크레파스(그리기)"
+    },
+    {
+      "key": "icon:tool:brush",
+      "now": "🖌️",
+      "what": "붓펜(색칠)"
+    },
+    {
+      "key": "icon:tool:glitter",
+      "now": "✨",
+      "what": "반짝이 펜"
+    },
+    {
+      "key": "icon:tool:rainbow",
+      "now": "🌈",
+      "what": "무지개 펜"
+    },
+    {
+      "key": "icon:tool:bucket",
+      "now": "🪣",
+      "what": "채우기(물감통)"
+    }
+  ],
+  "freeScenes": [
+    {
+      "key": "scene:free:sound-station",
+      "now": "🚌",
+      "what": "놀이터 카드 장면: 말소리 정류장"
+    },
+    {
+      "key": "scene:free:letter-mine",
+      "now": "⛏️",
+      "what": "놀이터 카드 장면: 으랏차 글자 광산"
+    },
+    {
+      "key": "scene:free:letter-wheel",
+      "now": "🎡",
+      "what": "놀이터 카드 장면: 돌려라 글자판"
+    },
+    {
+      "key": "scene:free:trace",
+      "now": "✏️",
+      "what": "놀이터 카드 장면: 따라쓰기"
+    },
+    {
+      "key": "scene:free:free-write",
+      "now": "📝",
+      "what": "놀이터 카드 장면: 글자를 써보자"
+    },
+    {
+      "key": "scene:free:word-card",
+      "now": "🃏",
+      "what": "놀이터 카드 장면: 손글씨 낱말 카드"
+    },
+    {
+      "key": "scene:free:rhythm",
+      "now": "🥁",
+      "what": "놀이터 카드 장면: 리듬 한글"
+    },
+    {
+      "key": "scene:free:assemble",
+      "now": "🧩",
+      "what": "놀이터 카드 장면: 모여라 자음 모음"
+    },
+    {
+      "key": "scene:free:cauldron",
+      "now": "🧪",
+      "what": "놀이터 카드 장면: 마법의 솥"
+    },
+    {
+      "key": "scene:free:word-soccer",
+      "now": "⚽",
+      "what": "놀이터 카드 장면: 단어 축구"
+    },
+    {
+      "key": "scene:free:listen-pick",
+      "now": "👂",
+      "what": "놀이터 카드 장면: 듣고 글자 고르기"
+    },
+    {
+      "key": "scene:free:pieces",
+      "now": "🧷",
+      "what": "놀이터 카드 장면: 조각 조각 붙여요"
+    },
+    {
+      "key": "scene:free:explain",
+      "now": "💬",
+      "what": "놀이터 카드 장면: 설명해 주세요"
+    },
+    {
+      "key": "scene:free:find-me",
+      "now": "🔎",
+      "what": "놀이터 카드 장면: 나를 찾아줘"
+    },
+    {
+      "key": "scene:free:read-answer",
+      "now": "📖",
+      "what": "놀이터 카드 장면: 읽고 답해요"
+    }
+  ]
+}
