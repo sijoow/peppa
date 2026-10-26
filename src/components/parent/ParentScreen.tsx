@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Splash, toneStyle } from "@/components/ui";
+import { Icon } from "@/components/Icon";
+import { CheckMark, Splash, toneStyle, UiIcon } from "@/components/ui";
 import { BUILT_UNITS, hasContent, unitDays } from "@/curriculum/days";
 import { LINES } from "@/curriculum/lines";
 import { STAGES, UNITS } from "@/curriculum/outline";
@@ -59,10 +60,12 @@ export default function ParentScreen() {
           <h1 className="font-display text-4xl">{master ? "관리자 페이지" : "부모 페이지"}</h1>
           <div className="flex gap-3">
             <button type="button" className="squish rounded-full px-5 py-3 font-display text-xl" onClick={() => window.print()}>
-              🖨️ 인쇄·PDF
+              <span className="inline-flex items-center gap-2">
+                <UiIcon name="print" /> 인쇄·PDF
+              </span>
             </button>
             <Link href="/" className="squish rounded-full px-6 py-3 font-display text-2xl">
-              🏠 아이 화면으로
+              <Icon emoji="🏠" /> 아이 화면으로
             </Link>
           </div>
         </header>
@@ -112,7 +115,7 @@ export default function ParentScreen() {
               <div className="flex flex-wrap gap-2">
                 {unitDays(u).map((d) => (
                   <Link key={d.day} href={`/play?preview=u${u}d${d.day}`} className={`rounded-xl px-3 py-2 ${d.assess ? "bg-butter" : "bg-paper"}`} title={d.title}>
-                    {d.day}일 {d.assess ? "⭐" : ""}
+                    {d.day}일 {d.assess && <Icon emoji="⭐" />}
                   </Link>
                 ))}
               </div>
@@ -132,7 +135,7 @@ export default function ParentScreen() {
                     <li key={u.id}>
                       <details>
                         <summary className="cursor-pointer">
-                          {u.id}단원 {u.title} {hasContent(u.id) ? "✅" : <span className="text-ink-soft">(준비 중)</span>}
+                          {u.id}단원 {u.title} {hasContent(u.id) ? <CheckMark on className="ml-1 inline-grid h-5 w-5 align-middle text-xs" /> : <span className="text-ink-soft">(준비 중)</span>}
                         </summary>
                         <ul className="ml-5 list-disc text-base text-ink-soft">
                           {u.chapters.map((c) => (

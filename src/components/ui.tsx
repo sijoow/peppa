@@ -64,7 +64,19 @@ export function SquishButton({ tone = "card", className = "", style, children, .
   );
 }
 
-export type UiIconName = "prev" | "next" | "play" | "record" | "stop" | "mic";
+export type UiIconName = "prev" | "next" | "play" | "record" | "stop" | "mic" | "check" | "portrait" | "landscape" | "print";
+
+/** 고르기 표시 — 고른 것은 분홍 동그라미 안 하얀 체크, 아니면 빈 동그라미(부모 설정의 ⚪ ✅ 대신) */
+export function CheckMark({ on, className = "" }: { on: boolean; className?: string }) {
+  return (
+    <span
+      aria-hidden
+      className={`grid h-7 w-7 shrink-0 place-items-center rounded-full border-2 text-base text-white transition-colors ${on ? "border-pink bg-pink" : "border-ink-soft/40 bg-white"} ${className}`}
+    >
+      {on && <UiIcon name="check" />}
+    </span>
+  );
+}
 
 /**
  * 조작 아이콘 — ◀ ▶ ⏺ 같은 글자·이모지 대신 쓰는 같은 모양의 선 그림(기기마다 이모지 모양이 달라서).
@@ -109,6 +121,33 @@ export function UiIcon({ name, className = "" }: { name: UiIconName; className?:
         <svg {...line} strokeWidth={2.4}>
           <rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor" />
           <path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7" />
+        </svg>
+      );
+    case "check":
+      return (
+        <svg {...line} strokeWidth={3.4}>
+          <path d="M5 12.5l4.5 4.5L19 7.5" />
+        </svg>
+      );
+    case "portrait":
+      return (
+        <svg {...line} strokeWidth={2.2}>
+          <rect x="7" y="2.5" width="10" height="19" rx="2.5" />
+          <path d="M11 18.5h2" />
+        </svg>
+      );
+    case "landscape":
+      return (
+        <svg {...line} strokeWidth={2.2}>
+          <rect x="2.5" y="7" width="19" height="10" rx="2.5" />
+          <path d="M18.5 11v2" />
+        </svg>
+      );
+    case "print":
+      return (
+        <svg {...line} strokeWidth={2.2}>
+          <path d="M7 9V3.5h10V9M7 17H4.5a1.5 1.5 0 0 1-1.5-1.5V10.5A1.5 1.5 0 0 1 4.5 9h15a1.5 1.5 0 0 1 1.5 1.5v5a1.5 1.5 0 0 1-1.5 1.5H17" />
+          <rect x="7" y="14" width="10" height="7" rx="1" />
         </svg>
       );
   }

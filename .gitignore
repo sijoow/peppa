@@ -57,3 +57,6 @@ next-env.d.ts
 !/public/img/app-icon.png
 !/public/img/app-icon-192.png
 /public/voice/candidates.html
+
+# 시험용 APK(zip) — 저장소에 올리지 않는다
+/release/

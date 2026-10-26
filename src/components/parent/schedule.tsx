@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { FireflyIcon } from "@/components/FireflyIcon";
 import { Peppa } from "@/components/Peppa";
+import { Icon } from "@/components/Icon";
 import { toneStyle, UiIcon } from "@/components/ui";
 import { CHILD } from "@/curriculum/child";
 import { stageOutline, unitOutline } from "@/curriculum/outline";
@@ -165,7 +166,7 @@ export function ScheduleCard({
   const firstPlannedInView = weeks.flat().find((d) => d && d >= today && byDay.has(d));
 
   return (
-    <Card title={`📅 ${nick} 스케줄`}>
+    <Card title={`${nick} 스케줄`}>
       {/* 폰: 며칠째 → 달력 → 앞으로의 모험 → 요일 설정 / 넓은 화면: 달력은 오른쪽 */}
       <div className="grid gap-5 break-keep lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-x-6">
         <div className="flex min-w-0 flex-col gap-5 lg:col-start-1 lg:row-start-1">
@@ -278,14 +279,16 @@ export function ScheduleCard({
         <div className="min-w-0 lg:col-start-1 lg:row-start-2">
           <h3 className="font-display text-xl">앞으로의 모험</h3>
           {next.length === 0 ? (
-            <p className="mt-2 text-ink-soft">모든 과정을 마쳤어요! 🎉</p>
+            <p className="mt-2 text-ink-soft">모든 과정을 마쳤어요! <Icon emoji="🎉" /></p>
           ) : (
             <ol className="mt-2 divide-y divide-paper-deep">
               {next.map((d) => (
                 <li key={d.on} className="flex flex-wrap items-center gap-x-3 gap-y-1 py-2">
                   <span className={`w-[5.6rem] shrink-0 font-display ${d.on === today ? "text-peach-deep" : ""}`}>{d.on === today ? "오늘" : shortDate(d.on)}</span>
                   <span className={`shrink-0 rounded-full px-3 py-0.5 text-base ${d.review ? "bg-lilac" : "bg-paper"}`}>{planLabel(d)}</span>
-                  {d.assess && <span className="shrink-0 rounded-full bg-butter px-2 text-sm">⭐ 확인 놀이</span>}
+                  {d.assess && <span className="shrink-0 rounded-full bg-butter px-2 text-sm">
+                    <Icon emoji="⭐" /> 확인 놀이
+                  </span>}
                   {!d.ready && <span className="shrink-0 rounded-full bg-paper-deep px-2 text-sm">준비 중</span>}
                   <span className="min-w-0 basis-full truncate text-base text-ink-soft sm:basis-auto sm:flex-1">{d.title}</span>
                 </li>

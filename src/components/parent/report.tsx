@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { toneStyle, UiIcon } from "@/components/ui";
+import { Icon } from "@/components/Icon";
+import { CheckMark, toneStyle, UiIcon } from "@/components/ui";
 import { hasContent } from "@/curriculum/days";
 import { START_LEVELS, stageOutline, unitOutline } from "@/curriculum/outline";
 import { LINES } from "@/curriculum/lines";
@@ -16,11 +17,11 @@ import { VOICES } from "@/lib/voices";
  * 부모·관리자 화면 조각 — 내 진도(부모 페이지)와 아이 진도(관리자 화면)가 같은 조각을 쓴다.
  */
 
-export function Card({ title, children, right }: { title: string; children: ReactNode; right?: ReactNode }) {
+export function Card({ title, children, right }: { title: ReactNode; children: ReactNode; right?: ReactNode }) {
   return (
-    <section className="rounded-[2rem] bg-card p-6 shadow-[0_6px_0_var(--paper-deep)]">
+    <section className="rounded-[2rem] bg-white p-6 shadow-[0_14px_34px_-18px_rgb(62_58_82/0.35)] ring-1 ring-ink/5">
       <div className="mb-4 flex items-center justify-between gap-3">
-        <h2 className="font-display text-2xl text-ink">{title}</h2>
+        <h2 className="flex items-center gap-2 font-display text-2xl text-ink">{title}</h2>
         {right}
       </div>
       <div className="font-body text-lg text-ink">{children}</div>
@@ -89,7 +90,13 @@ export function ProgressSummary({ progress, today }: { progress: Progress; today
       </p>
       <p className="mt-1 text-ink-soft">{unit?.title}</p>
       <p className="mt-3">
-        반딧불이 <b>{progress.fireflies}</b>마리 · 최근 7일 중 <b>{playedThisWeek}</b>일 학습 · 오늘 모험 {progress.lastPlayedOn === today ? "✅ 했어요" : "아직이에요"}
+        반딧불이 <b>{progress.fireflies}</b>마리 · 최근 7일 중 <b>{playedThisWeek}</b>일 학습 · 오늘 모험 {progress.lastPlayedOn === today ? (
+          <span className="inline-flex items-center gap-1 font-bold text-mint-deep">
+            <UiIcon name="check" /> 했어요
+          </span>
+        ) : (
+          "아직이에요"
+        )}
       </p>
       {stage && <RateBar label={`${stage.id}단계 진도율`} {...progressRate(progress, stage.id)} />}
       <RateBar label="전체 진도율 (6단계)" {...progressRate(progress)} />
@@ -277,14 +284,14 @@ export function ProgramControls({ saved, today, change, who }: { saved: Saved; t
         {VOICES.map((v) => {
           const on = settings.voice === v.id;
           return (
-            <div key={v.id} className={`flex items-center justify-between gap-3 rounded-2xl px-4 py-3 ${on ? "bg-sky/50 ring-4 ring-sky-deep" : "bg-paper"}`}>
+            <div key={v.id} className={`flex items-center justify-between gap-3 rounded-2xl px-4 py-3 transition-colors ${on ? "bg-pink-soft ring-2 ring-pink" : "bg-white ring-1 ring-ink/10"}`}>
               <button
                 type="button"
-                className="flex-1 text-left font-display text-2xl"
+                className="flex flex-1 items-center gap-3 text-left font-display text-2xl"
                 aria-pressed={on}
                 onClick={() => change((s) => ({ ...s, settings: { ...s.settings, voice: v.id } }))}
               >
-                {on ? "✅" : "⚪"} {v.name}
+                <CheckMark on={on} /> {v.name}
               </button>
               <button type="button" className="squish flex items-center gap-1.5 rounded-full px-4 py-2 text-base" onClick={() => void say(LINES.greet, v.id)}>
                 <UiIcon name="play" /> 들어 보기
@@ -297,8 +304,8 @@ export function ProgramControls({ saved, today, change, who }: { saved: Saved; t
       <div className="mt-2 grid grid-cols-2 gap-2">
         {(
           [
-            ["portrait", "📱 세로 모드"],
-            ["landscape", "📺 가로 모드"],
+            ["portrait", "세로 모드"],
+            ["landscape", "가로 모드"],
           ] as const
         ).map(([o, label]) => {
           const on = settings.orientation === o;
@@ -307,14 +314,16 @@ export function ProgramControls({ saved, today, change, who }: { saved: Saved; t
               key={o}
               type="button"
               aria-pressed={on}
-              className={`squish rounded-2xl px-4 py-3 text-left font-display text-2xl ${on ? "bg-sky/50 ring-4 ring-sky-deep" : "bg-paper"}`}
+              className={`flex items-center gap-3 whitespace-nowrap rounded-2xl px-4 py-3 text-left font-display text-2xl transition-colors portrait:gap-2 portrait:px-3 portrait:text-xl ${on ? "bg-pink-soft ring-2 ring-pink" : "bg-white ring-1 ring-ink/10"}`}
               onClick={() => {
                 change((s) => ({ ...s, settings: { ...s.settings, orientation: o } }));
                 // 누르는 지금이 사용자 동작 — 웹 모바일도 바로 전체 화면 + 고정
                 lockOrientation(o);
               }}
             >
-              {on ? "✅" : "⚪"} {label}
+              <CheckMark on={on} />
+              <UiIcon name={o} className="text-ink-soft" />
+              {label}
             </button>
           );
         })}
@@ -337,7 +346,7 @@ export function ProgramControls({ saved, today, change, who }: { saved: Saved; t
       </div>
       <div className="mt-4 flex flex-wrap items-center gap-3">
         <Link href="/diagnose" className="squish rounded-2xl px-5 py-2 font-display text-lg" style={toneStyle("sky")}>
-          🧭 단원 찾기 퀴즈
+          <Icon emoji="🧭" /> 단원 찾기 퀴즈
         </Link>
         <span className="text-base text-ink-soft">
           {progress.diagnosed ? `최근 결과: ${progress.diagnosed.on.slice(5).replace("-", ".")} → ${progress.diagnosed.unit}단원 추천` : "퀴즈는 로그인한 아이디로 풀어요."}

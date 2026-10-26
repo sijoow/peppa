@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Icon } from "@/components/Icon";
 import { toneStyle } from "@/components/ui";
 import { authHeaders } from "@/lib/auth";
 import { progressRate } from "@/lib/progress";
@@ -89,7 +90,7 @@ export function AdminPanel({ today }: { today: string }) {
   };
 
   return (
-    <Card title="👑 관리자 — 아이 관리" right={<button type="button" className="squish rounded-full px-4 py-1 text-base" onClick={load}>새로고침</button>}>
+    <Card title={<><Icon emoji="👑" /> 관리자 — 아이 관리</>} right={<button type="button" className="squish rounded-full px-4 py-1 text-base" onClick={load}>새로고침</button>}>
       {error && <p className="mb-3 text-peach-deep">{error}</p>}
       {list && !list.db && <p className="mb-3 rounded-2xl bg-paper p-3 text-base">MongoDB 가 아직 연결되지 않아서 아이 진도를 볼 수 없어요. .env.local 에 MONGODB_URI 를 넣으면 아이 계정 만들기·진도 관리가 켜져요.</p>}
 
