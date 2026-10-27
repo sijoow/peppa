@@ -129,7 +129,7 @@ export default function MissionScreen() {
     const next = mission.items.findIndex((_, i) => !st.done.includes(i));
     return (
       <ModeShell title={mission.title} icon={st.badge ? "🏅" : "🎯"} iconId={st.badge ? "mission:badge" : "mission:target"} scene="missions" onBack={() => setOpen(null)}>
-        <div className="flex h-full items-center justify-center gap-8 overflow-y-auto px-8 pb-6 portrait:flex-col portrait:justify-start portrait:gap-4 portrait:px-4 portrait:pt-2 short:gap-5 short:pb-2">
+        <div className="scroll-fade flex h-full items-center-safe justify-center gap-8 overflow-y-auto px-8 pb-6 pt-2 portrait:flex-col portrait:justify-start portrait:gap-4 portrait:px-4 portrait:pt-2 short:gap-5 short:pb-2">
           {/* 메달과 진행 */}
           <div className="glass flex shrink-0 flex-col items-center gap-3 rounded-[2rem] px-8 py-6 portrait:w-full portrait:flex-row portrait:gap-4 portrait:px-5 portrait:py-4 short:px-5 short:py-3">
             <Medal mission={mission} tone={tone} earned={st.badge} size="min(9rem, 30vw)" />
@@ -226,7 +226,7 @@ export default function MissionScreen() {
         </aside>
 
         {/* 그 묶음의 도전 — 동그란 메달 카드 */}
-        <section key={current} className="min-h-0 flex-1 overflow-y-auto pb-2">
+        <section key={current} className="scroll-fade min-h-0 flex-1 overflow-y-auto pb-2 pt-1">
           <div className="grid grid-cols-3 gap-5 xl:grid-cols-4 short:grid-cols-4 short:gap-2.5 portrait:grid-cols-2 portrait:gap-3">
             {MISSIONS.filter((m) => m.group === current).map((m, i) => {
               const st = stateOf(m.id);

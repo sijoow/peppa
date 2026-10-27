@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { toneAt, useCompact } from "@/components/ui";
+import { toneAt, useCompact, usePortrait } from "@/components/ui";
 import { isLetter, speakOf } from "@/curriculum/items";
 import { LINES } from "@/curriculum/lines";
 import type { Bubble } from "@/lib/rounds";
@@ -14,7 +14,8 @@ import type { OnDone } from "../types";
 export function TapPop({ bubbles, onDone }: { bubbles: Bubble[]; onDone: OnDone }) {
   const [popped, setPopped] = useState<number[]>([]);
   const later = useTimers();
-  const k = useCompact() ? 0.55 : 1;
+  const portrait = usePortrait();
+  const k = useCompact() ? 0.55 : portrait ? 0.78 : 1;
 
   useEffect(() => {
     void say(LINES.tapPop);
@@ -45,7 +46,8 @@ export function TapPop({ bubbles, onDone }: { bubbles: Bubble[]; onDone: OnDone 
             aria-label={speakOf(b.item)}
             onClick={() => tap(i)}
             className="absolute -translate-x-1/2 -translate-y-1/2"
-            style={{ left: `${b.x}%`, top: `${b.y}%`, width: size, height: size }}
+            // 가장자리에 걸리지 않게 — 중심을 반지름만큼 안쪽에 둔다(세로 폰에서 방울이 반쯤 잘리던 것)
+            style={{ left: `clamp(${size / 2 + 6}px, ${b.x}%, calc(100% - ${size / 2 + 6}px))`, top: `clamp(${size / 2 + 6}px, ${b.y}%, calc(100% - ${size / 2 + 6}px))`, width: size, height: size }}
           >
             <span className={`block h-full w-full ${gone ? "animate-burst" : "animate-float"}`} style={{ animationDelay: gone ? "0s" : `${b.delay}s` }}>
               <span

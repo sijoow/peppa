@@ -112,7 +112,7 @@ export default function FreeScreen() {
   return (
     <ModeShell title={menuOf("free").title} icon="🎮" iconId="menu:free" scene="free">
       {/* 위: 묶음 탭 다섯 개 · 아래: 그 묶음의 놀이 세 개를 큰 장면 카드로 (2026-10-26 새 놀이터) */}
-      <div className="flex h-full flex-col gap-4 overflow-y-auto px-6 pb-5 pt-1 short:gap-2 short:px-4 short:pb-2 portrait:gap-3 portrait:px-3">
+      <div className="scroll-fade flex h-full flex-col gap-4 overflow-y-auto px-6 pb-5 pt-1 short:gap-2 short:px-4 short:pb-2 portrait:gap-3 portrait:px-3">
         <div className="glass mx-auto flex max-w-full shrink-0 gap-1 overflow-x-auto rounded-full p-1.5 short:p-1 portrait:w-full portrait:overflow-visible portrait:rounded-[1.6rem]" role="tablist" aria-label="놀이 묶음">
           {FREE_AREAS.map((a) => {
             const on = a.id === current.id;

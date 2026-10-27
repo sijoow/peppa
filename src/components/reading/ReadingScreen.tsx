@@ -308,7 +308,7 @@ export default function ReadingScreen() {
   if (mode) {
     return (
       <ModeShell title="책 고르기" icon="📚" iconId="reading:books" scene="reading" onBack={() => setMode(null)}>
-        <div className="grid h-full grid-cols-4 content-center gap-5 overflow-y-auto px-10 pb-6 portrait:grid-cols-2 portrait:content-start portrait:gap-3 portrait:px-4 portrait:pt-2">
+        <div className="scroll-fade grid h-full grid-cols-4 content-center-safe gap-5 overflow-y-auto px-10 pb-6 pt-3 short:grid-cols-6 short:gap-3 short:px-5 portrait:grid-cols-2 portrait:content-start portrait:gap-3 portrait:px-4 portrait:pt-2">
           {BOOKS.map((b, i) => (
             <SquishButton
               key={b.id}

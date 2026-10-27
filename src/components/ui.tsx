@@ -300,7 +300,7 @@ export function MenuCard({
       onClick={onClick}
       style={style}
       className={`group relative flex min-h-0 flex-col items-stretch gap-1.5 rounded-[1.8rem] p-2 pb-2.5 text-center transition-transform duration-150 active:scale-95 ${
-        dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur-md" : "bg-white text-ink shadow-[0_14px_30px_-16px_rgb(62_58_82/0.45)]"
+        dark ? "bg-[#16296b]/90 text-white ring-1 ring-white/25 backdrop-blur-md" : "bg-white text-ink shadow-[0_14px_30px_-16px_rgb(62_58_82/0.45)]"
       } ${className}`}
     >
       <span className={`relative grid min-h-0 flex-1 place-items-center overflow-hidden rounded-[1.4rem] ${artClassName}`} style={{ background: artBg }}>

@@ -212,7 +212,7 @@ export default function HomeScreen() {
         </div>
       </header>
 
-      <section className="relative z-10 flex min-h-0 flex-1 items-center justify-center gap-[5vw] px-8 short:gap-6 short:px-5 portrait:flex-col portrait:justify-evenly portrait:gap-0 portrait:px-4">
+      <section className="relative z-10 flex min-h-0 flex-1 items-center-safe justify-center gap-[5vw] overflow-y-auto px-8 short:gap-6 short:px-5 portrait:flex-col portrait:justify-evenly portrait:gap-0 portrait:px-4">
         {/* 페파 + 말풍선 */}
         <div className="flex shrink-0 flex-col items-center">
           <SpeechBubble tail="down" className="mb-3 max-w-[min(86vw,24rem)] short:mb-1 short:px-4 short:py-2 short:text-xl portrait:text-2xl">

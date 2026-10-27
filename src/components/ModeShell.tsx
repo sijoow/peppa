@@ -65,7 +65,8 @@ export function ModeShell({
         </div>
         <FireflyCount n={saved?.progress.fireflies ?? 0} />
       </header>
-      <section className="relative z-0 min-h-0 flex-1">{children}</section>
+      {/* 내용이 화면보다 크면 잘리지 않고 스크롤 — 낮은 화면(폰 가로·주소창)에서 아래가 끊기던 것 */}
+      <section className="relative z-0 min-h-0 flex-1 overflow-x-hidden overflow-y-auto">{children}</section>
     </main>
   );
 }

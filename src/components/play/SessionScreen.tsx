@@ -156,7 +156,7 @@ export default function SessionScreen() {
           <FireflyCount n={phase.score.activities * FIREFLY_PER_ACTIVITY} />
         </header>
 
-        <section className="relative z-0 min-h-0 flex-1">
+        <section className="relative z-0 min-h-0 flex-1 overflow-x-hidden overflow-y-auto">
           <ActivityHost key={phase.idx} built={phase.built[phase.idx]} assess={phase.ref.plan.assess} onDone={onActivityDone} />
         </section>
 

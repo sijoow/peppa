@@ -347,11 +347,11 @@ export default function GalaxyScreen() {
 
   return (
     <ModeShell title={menuOf("galaxy").title} icon="🚀" iconId="menu:galaxy" scene="galaxy" backdrop={NIGHT ? undefined : sky}>
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 px-10 portrait:gap-4 portrait:px-4">
+      <div className="scroll-fade absolute inset-0 flex flex-col items-center justify-center-safe gap-6 overflow-y-auto px-10 py-4 short:gap-3 short:py-2 portrait:gap-4 portrait:px-4">
         <p className="glass relative rounded-full px-6 py-2 text-xl font-extrabold text-ink portrait:px-4 portrait:text-base">
           <Icon emoji="🚀" /> 오늘 남은 여행 {master ? "무제한(마스터)" : `${plays} / ${GALAXY_PLAYS_PER_DAY}`}
         </p>
-        <div className="relative grid w-full max-w-4xl grid-cols-3 gap-4 portrait:grid-cols-2 portrait:gap-3">
+        <div className="relative grid w-full max-w-4xl grid-cols-3 gap-4 short:max-w-none short:grid-cols-6 short:gap-2.5 portrait:grid-cols-2 portrait:gap-3">
           {GALAXIES.map((g, i) => {
             const unlocked = isOpen(saved, g.opens, master);
             const cleared = saved.progress.galaxy.cleared[g.id] ?? 0;
@@ -375,7 +375,7 @@ export default function GalaxyScreen() {
                 className="animate-pop-in"
                 style={{ animationDelay: `${i * 60}ms` }}
                 artClassName="aspect-[16/10] flex-none"
-                art={<Icon id={`galaxy:${g.id}`} emoji={g.icon} className="text-[5rem] portrait:text-[4rem]" />}
+                art={<Icon id={`galaxy:${g.id}`} emoji={g.icon} className="text-[5rem] short:text-[3.4rem] portrait:text-[4rem]" />}
                 onClick={() => {
                   sfx.wake();
                   if (!unlocked) {

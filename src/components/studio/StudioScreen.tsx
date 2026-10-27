@@ -180,7 +180,7 @@ export default function StudioScreen() {
 
   return (
     <ModeShell title={item.title} icon={item.icon} iconId={`studio:${item.id}`} scene="studio" onBack={back}>
-      <div className="h-full overflow-y-auto px-4 pb-4 [--pad:min(74vw,calc((100dvh-22rem)*1.333))] [--pad-sq:min(64vw,calc((100dvh-22rem)*1.25))] short:[--pad-sq:min(56vw,calc((100dvh-9rem)*1.25))] short:[--pad:min(56vw,calc((100dvh-9rem)*1.333))] portrait:[--pad:min(94vw,calc((100dvh-31rem)*0.8))] portrait:[--pad-sq:min(94vw,calc((100dvh-22rem)*1.25))]">
+      <div className="scroll-fade h-full overflow-y-auto px-4 pb-4 [--pad:min(74vw,calc((100dvh-22rem)*1.333))] [--pad-sq:min(64vw,calc((100dvh-22rem)*1.25))] short:[--pad-sq:min(56vw,calc((100dvh-9rem)*1.25))] short:[--pad:min(56vw,calc((100dvh-9rem)*1.333))] portrait:[--pad:min(94vw,calc((100dvh-31rem)*0.8))] portrait:[--pad-sq:min(94vw,calc((100dvh-22rem)*1.25))]">
       <div className="flex min-h-full flex-col items-center justify-center gap-3">
         {item.id === "draw" && <DrawPad name="그림" width={padWidth} aspect={padAspect} />}
 
